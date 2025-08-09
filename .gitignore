@@ -1,0 +1,50 @@
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Virtual Environment
+.venv
+venv/
+env/
+
+# Database
+db.sqlite3
+*.sqlite3-journal
+
+# Media and Static files (if not managed by a separate storage solution)
+/media/
+/static/ # If collected static files are not to be committed
+
+# Log files
+*.log
+
+*.png
+
+# Sensitive settings (if not handled by environment variables)
+local_settings.py
+production_settings.py
+
+# IDE-specific files (e.g., PyCharm, VS Code)
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Testing and Coverage
+.coverage
+.tox/
+.eggs/
+
+# Packaging and build artifacts
+target/
+.pipenv.lock
+Pipfile.lock
+poetry.lock
+pyproject.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
