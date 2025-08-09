@@ -1,6 +1,6 @@
 <h1 align="center"> O objetivo desse programa em python é criar um CRUD. </h1> 
 
-[](crud.png)
+![alt text](crud.png)
 
 ### usando sqlite3
 
